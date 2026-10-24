@@ -1,1 +1,36 @@
-# resume-tailor
+# 个人配置（含真实姓名、联系方式、投递记录），不入库
+config/profile.json
+config/profile-*.json
+data/ledger.md
+data/imported_resume.txt
+
+# 个人照片
+assets/photo.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.png
+
+# 生成物
+output/
+*.pdf
+
+# 备份
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 工具目录
+.workbuddy/
